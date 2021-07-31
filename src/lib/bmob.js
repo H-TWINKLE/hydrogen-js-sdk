@@ -1,6 +1,6 @@
 const utils = require('./utils')
 
-const Bmob = global.Bmob || {}
+const Bmob = globalThis.Bmob || {}
 Bmob.utils = utils
 Bmob._config = utils.getConfig()
 
